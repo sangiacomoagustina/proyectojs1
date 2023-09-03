@@ -7,7 +7,7 @@
 - Cantidad Deseada
 4- Se le pregunta si desea seguir comprando
 5- Se le muestra el total
-7- Se pregunta su Condición Fiscal
+7- Se pregunta su Condición Fiscal y se le indica tipo de factura a emitir
 8- Mensaje de Gracias por su Compra!*/
 
 
@@ -48,6 +48,7 @@ function saber (){
                 break;
             case c:
                 alert (`Se emitirá Factura A`);
+                break;
             default:
                 alert(`Opción incorrecta`);
         }
